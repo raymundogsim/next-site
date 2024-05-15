@@ -1,7 +1,7 @@
 :root{
-    --bg: white;
+    --bg: #0d0c22;
     --bdSoft: #2d2b42;
-    --text: #0d0c22;
+    --text: white;
     --textSoft: #e5e5e5;
     --btn: #3673fd;
 }
@@ -15,6 +15,10 @@ box-sizing: border-box;
 body{
     background: var(--bg);
     color: var(--text);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
 
 a{
@@ -23,10 +27,51 @@ a{
 }
 
 .container {
-    height: 100px;
+    width: 80%;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    min-height: 95vh;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: space-between;
-    width: 80%;
+}
+
+@media (max-width: 1536px) {
+    .container {
+        width: 1366px;
+    }
+}
+
+@media (max-width: 1366px) {
+    .container {
+        width: 1280px;
+    }
+}
+
+@media (max-width: 1280px) {
+    .container {
+        width: 1024px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .container {
+        width: 768px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 640px;
+    }
+}
+
+@media (max-width: 640px) {
+    .container {
+        width: 475px;
+    }
 }

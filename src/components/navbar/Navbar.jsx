@@ -6,7 +6,7 @@ const Navbar = () => {
     return (
       <div className={styles.container}>
         <div className={styles.logo}>
-        Logo
+        Maritext
         </div>
           <div>
             <Links />

@@ -1,7 +1,4 @@
 .container {
-    background-color: teal;
-    margin-left: 200px;
-    margin-right: 200px;
     height: 100px;
     padding: 20px;
     display: flex;

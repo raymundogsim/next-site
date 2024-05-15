@@ -1,0 +1,18 @@
+.container{
+    height: 30px;
+    min-width: 110px;
+    padding: 5px;
+    border-radius: 20px;
+    font-weight: 500;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.active{
+    background-color: var(--text);
+    color: var(--bg);
+    font-weight: 500;
+}
