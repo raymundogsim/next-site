@@ -2,7 +2,8 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 10px;
+    gap: 0px;
+    margin-left: 20px;
 } 
 
 .logout{
@@ -29,9 +30,10 @@
     position: absolute;
     top: 100px;
     right: 0;
-    width: 50%;
+    width: 25%;
     height: calc(100vh - 100px);
     background-color: var(--bg);
+    opacity: 80%;
     display: flex;
     flex-direction: column;
     align-items: center;

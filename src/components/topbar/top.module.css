@@ -1,0 +1,6 @@
+.top {
+    z-index: -1;
+    background-color: teal;
+    height: 65px;
+    width: 100%;
+}

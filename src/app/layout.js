@@ -2,6 +2,8 @@ import {inter} from '@/app/fonts'
 import './globals.css'
 import Navbar from '@/components/navbar/Navbar'
 import Footer from '@/components/footer/Footer'
+import Top from '@/components/topbar/Top'
+import { imageConfigDefault } from 'next/dist/shared/lib/image-config'
 
 export const metadata = {
   title: 'Maritext SMS App',

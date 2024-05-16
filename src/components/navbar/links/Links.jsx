@@ -6,7 +6,7 @@ import { useState } from 'react';
 
 const links = [
   {
-    title: "Homepage",
+    title: "Home",
     path: "/",
   },
   {
@@ -18,8 +18,8 @@ const links = [
     path: "/contact",
   },
   {
-    title: "Blog",
-    path: "/blog",
+    title: "Pricing",
+    path: "/pricing",
   },
 ];
 
