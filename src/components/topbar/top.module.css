@@ -1,6 +1,6 @@
 .top {
     z-index: -1;
-    background-color: teal;
+    background-color: var(--bg);
     height: 65px;
     width: 100%;
 }

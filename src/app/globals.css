@@ -1,5 +1,5 @@
 :root{
-    --bg: teal;
+    --bg: #130129;
     --bdSoft: beige;
     --text: white;
     --textSoft: #e5e5e5;
@@ -11,7 +11,6 @@ margin: 0;
 padding: 0;
 box-sizing: border-box;
 }
-
 
 body{
     position: relative;
@@ -100,7 +99,6 @@ a{
     .container {
         width: 1366px;
     }
-
 }
 
 @media (max-width: 1366px) {

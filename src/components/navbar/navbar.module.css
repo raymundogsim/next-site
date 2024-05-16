@@ -1,6 +1,6 @@
 .container {
     position: relative;
-    background-color: teal;
+    background-color: var(--bg);
     min-width: 60vw;
     max-height: 15px;
     display: flex;
