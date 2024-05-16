@@ -3,12 +3,12 @@
     min-width: 90px;
     padding: 5px;
     border-radius: 20px;
-    font-weight: 500;
+    font-weight: 500pt;
     flex-direction: row;
     align-items: center;
     text-align: center;
     justify-content: space-between;
-    margin-left: 5px;
+    gap: 10px;
 }
 
 .active{

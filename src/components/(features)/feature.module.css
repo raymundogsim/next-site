@@ -1,46 +1,68 @@
 
 .container {
-    margin-top: 10px;
+    position: relative;
     width: 60vw;
-    min-height: 60vh;
-    display: flex;
+    max-width: 60vw;
+    height: 95vh;
+    min-width:1080px;
+    min-height: 800px;
+    display: inline;
     flex-direction: column;
-    gap: 1px;
-    align-items: center;
-    justify-content: flex-start;
-}
-
-.h1 {
-    min-height: 100px;
-    min-width: 60vw;
-    margin-top: 200px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    padding-left: 35px;
+    padding-left: 35px;
     align-items: flex-start;
+    justify-content: flex-start;
+    gap: 1px;
+}
+    
+.title {
+    position: absolute;
+    width: 56vw;
+    min-width: 55vw;
+    height: 150px;
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    align-items: center;
+    justify-content: center;
     text-wrap: wrap;
 }
 
-.content {
+.content_a {
+    position: relative;
     min-width: 60vw;
-    max-height: 65vh;
-    display: inline-flex;
+    max-height: 85vh;
+    display: flex;
     flex-direction: row;
+    margin-top: 50px;
     align-items: left;
     justify-content: space-between;   
 }
 
-.content_img {
-    max-width: 500px;
-    height: 500px;
+.content_b {
+    position: relative;
+    width: 60vw;
+    height: 85vh;
+    display: flex;
+    flex-direction: row;
+    margin-top: 200px;
+    align-items: flex-start;
+    justify-content: space-between;   
+}
+
+.content-img {
+    position: absolute;
+    width: 30vw;
+    height: 60vh;
     display: flex;
     flex-direction: column;
-    margin-top: 35px;
-    margin-right: 5px;
-    margin-left: 5px;
-    margin-bottom: 5px;
-    align-items: flex-start;
-    justify-content: flex-start;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    align-items: space-around;
+    justify-content: center;
 }
 
 .content_bg {
@@ -56,16 +78,51 @@
 
 .description {
     position: relative;
-    max-width: 30vh;
-    max-height: 75vh;
+    width: 30vw;
+    height: 60vh;
+    /* max-width: 30vw; */
+    /* max-height: 85vh; */
     display: flex;
     flex-direction: column;
-    margin-top: 10px;
-    margin-right: 5px;
-    margin-left: 5px;
-    margin-bottom: 5px;
-    align-items: flex-end;
+    margin-top: 0px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 0px;
+    align-items: flex-start;
     justify-content: center;
-    text-align: justify;
+    text-align: center;
 }
 
+@media (max-width: 1536px) {
+    .container {
+        width: 1366px;
+    }
+}
+
+@media (max-width: 1366px) {
+    .container {
+        width: 1024px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .container {
+        width: 768px;
+        padding-left: 0px;
+        padding-right: 0px;  
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 640px;
+    }
+}
+
+@media (max-width: 640px) {
+    .container {
+        width: 475px;
+    }
+}

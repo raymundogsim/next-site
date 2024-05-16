@@ -1,18 +1,19 @@
 .container {
-    position: relative;
+    position: absolute;
     background-color: var(--bg);
-    min-width: 60vw;
-    max-height: 15px;
+    width: 56vw;
+    height: 10vw;
+    max-height: 50px;
     display: flex;
     flex-direction: row;
-    margin-top: 10px;
     align-items: center;
     justify-content: space-between;
 }
 
 .logo {
-    align-items: flex-start;
+    position: relative;
+    align-items: center;
     flex-direction: row;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 }
