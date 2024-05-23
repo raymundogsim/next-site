@@ -1,17 +1,18 @@
 .footer {
-    width: 58vw;
-    max-width: 60vw;
-    height: 20px;
-    max-height: 100px;
+    position: relative;
+    width: 60vw;
+    height: 100px;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: flex-start;
-    gap: 140px;
+    justify-content: center;
+    overflow: wrap;
+    gap: 20px;
+    font-size: 8pt;
 }
 
 @media (max-width: 1024px) {
     .footer {
-        gap: 80px;
+    
     }
 }

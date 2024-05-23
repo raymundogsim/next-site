@@ -2,13 +2,18 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 0px;
     margin-left: 20px;
 } 
 
 .logout{
     cursor: pointer;
     font-weight: bold;
+    color: var(--text);
+    background-color: var(--bg);
+    border: none;
+    font-size: 11pt;
+    text-decoration: underline;
+    padding-left: 20px;
 }
 
 .menuButton,

@@ -1,11 +1,12 @@
 .container {
-    position: absolute;
-    background-color: var(--bg);
-    width: 56vw;
-    height: 10vw;
-    max-height: 50px;
+    position: fixed;
+    width: 60vw;
+    height: 100px;
+    /* min-width: 60vw; */
+    /* max-height: 50px; */
     display: flex;
     flex-direction: row;
+    /* margin-left: 200px; */
     align-items: center;
     justify-content: space-between;
 }
@@ -16,4 +17,10 @@
     flex-direction: row;
     display: flex;
     justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+    .container {
+
+    }
 }

@@ -1,5 +1,5 @@
 import Image from "next/image";
-import styles from '../feature.module.css';
+import styles from "@/components/(features)/feature.module.css"
 
 const Overview = () => {
     return (
@@ -12,7 +12,7 @@ const Overview = () => {
         <div className={styles.content_b}>
           <div className={styles.content_img}>
           <br></br>
-            <Image src="/hero.png" alt="" width={460} height={460} />
+            <Image src="/hero.png" alt="" width={400} height={400} />
           </div>
           <div className={styles.description}>
             <h3>

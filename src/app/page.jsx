@@ -7,10 +7,10 @@ const Home = () => {
     <div className="container">
       <div className="content"> 
         <div className="content-img">
-          <Image src="/phone_flash.svg" alt="" width={420} height={420} />
+          <Image src="/phone_flash.svg" alt="" width={300} height={300} />
         </div>
         <div className="content-bg">
-          <Image src="/splash.svg" alt="" width={1300} height={550} />
+          <Image src="/splash.svg" alt="" width={400} height={200} />
         </div>
         <div className="description">
           <h1>MariText</h1>
