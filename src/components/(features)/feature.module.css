@@ -11,7 +11,9 @@
     padding-right: 35px;
     align-items: center;
     justify-content: flex-end;
-}
+    gap: 10%;
+}  
+
     
 .title {
     position: relative;
@@ -19,13 +21,13 @@
     min-width: 55vw;
     height: 150px;
     min-height: 150px;
-    font-size: 27pt;
+    font-size: 25pt;
     display: flex;
     flex-direction: column;
     margin-top: 100px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
     text-wrap: wrap;
 }
 
@@ -35,7 +37,8 @@
     max-height: 60vh;
     display: flex;
     flex-direction: row;
-    align-items: center;
+    margin-bottom: 200px;
+    align-items: flex-start;
     justify-content: space-between;   
 }
 
@@ -45,19 +48,37 @@
     height: 60vh;
     display: flex;
     flex-direction: row;
-    /* margin-top: 200px; */
-    align-items: center;
-    justify-content: space-between;   
+    margin-bottom: 200px;
+    align-items: right;
+    justify-content: space-between;  
+    gap: 4%;
 }
 
 .content-img {
     position: relative;
-    width: 30vw;
+    width: 20vw;
     height: 60vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+.description {
+    position: relative;
+    width: 35vw;
+    max-width: 35vw;
+    height: 60vh;
+    max-height: vh;
+    line-height: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: flex-end;
+    overflow: clip;
+    text-wrap: wrap;
+    gap: 10%;
 }
 
 .content_bg {
@@ -71,30 +92,13 @@
     justify-content: center;
 }
 
-.description {
-    position: relative;
-    width: 30vw;
-    height: 60vh;
-    /* max-width: 30vw; */
-    /* max-height: 85vh; */
-    display: flex;
-    flex-direction: column;
-    margin-top: 0px;
-    /* margin-right: 20px; */
-    /* margin-left: 20px; */
-    align-items: center;
-    justify-content: center;
-    text-align: flex-start;
-    gap: 10%;
-}
+/* @media (max-width: 1536px) { */
+    /* .container { */
+        /* width: 1366px; */
+    /* } */
+/* } */
 
 @media (max-width: 1536px) {
-    .container {
-        width: 1366px;
-    }
-}
-
-@media (max-width: 1366px) {
     .container {
         width: 1024px;
         padding-left: 20px;
@@ -105,8 +109,6 @@
 @media (max-width: 1024px) {
     .container {
         width: 768px;
-        padding-left: 0px;
-        padding-right: 0px;  
     }
 }
 

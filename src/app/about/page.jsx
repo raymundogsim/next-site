@@ -13,6 +13,7 @@ const AboutPage = () => {
       <Feature2 />
       <Feature3 />
       <Feature4 />
+      <div></div>
     </div>
   )
 }

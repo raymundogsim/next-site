@@ -7,7 +7,7 @@ const Feature2 = () => {
     <div>
       <div className={styles.content_b}> 
         <div className={styles.content_img}>
-          <Image src="/phone_flash.svg" alt="" width={400} height={500} />
+          <Image src="/phone_flash.svg" alt="" width={480} height={600} />
         </div>
         <div className={styles.description}>
           <h1>2. OTP Authentication for Secure App Login</h1>

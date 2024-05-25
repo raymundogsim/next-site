@@ -31,7 +31,7 @@ a{
     position: relative;
     width: 60vw;
     max-width: 60vw;
-    height: 90vh;
+    height: 85vh;
     min-width:60vw;
     min-height: 800px;
     display: inline;
@@ -47,7 +47,7 @@ a{
 .content {
     position: relative;
     width: 60vw;
-    height: 75vh;
+    height: 85vh;
     min-height: 50vh;
     display: flex;
     flex-direction: row;
@@ -73,14 +73,14 @@ a{
 
 .content-img {
     position: absolute;
-    width: 30vw;
+    width: 20vw;
     height: 75vh;
     display: flex;
     flex-direction: column;
     margin-top: 30px;
     margin-right: 10px;
     margin-bottom: 10px;
-    align-items: left;
+    align-items: center;
     justify-content: space-evenly;
 }
 
@@ -88,8 +88,6 @@ a{
     position: relative;
     width: 30vw;
     height: 75vh;
-    /* max-width: 30vw; */
-    /* max-height: 75vh; */
     display: flex;
     flex-direction: column;
     margin-top: 210px;
@@ -102,12 +100,15 @@ a{
     gap: 2%;
 }
 
+
+/* w1 */
 @media (max-width: 1536px) {
     .container {
         width: 1366px;
     }
 }
 
+/* w2 */
 @media (max-width: 1366px) {
     .container {
         width: 1024px;
@@ -116,29 +117,77 @@ a{
     }
 }
 
+/* w3 */
 @media (max-width: 1024px) {
     .container {
         width: 768px;
-        padding-left: 0px;
-        padding-right: 0px;  
     }
+        
+    .content-bg {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: center;
+
+    }    
+        
+    .content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        overflow: wrap;
+    }
+        
+    .description {
+        display: none;
+        text-align: flex-start;
+    }
+    
 }
+
+/* w4 */
 
 @media (max-width: 768px) {
     .container {
         width: 640px;
     }
-}
-
-@media (max-width: 640px) {
-    .container {
-        width: 475px;
+                    
+    .content-bg {
+        display: none;
+    }    
+       
+    .content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        overflow: wrap;
+    }
+    
+    .description {
+        display: none;
     }
 }
 
-.first_button {
+/* w5 */
+@media (max-width: 640px) {
+    .container {
+        width: 475px;
 
+    }
+        
+    .content-bg {
+        display: none;
+    }    
+    
+    .description {
+        display: none;
+    }
 }
+
+
+
 
 .first_button {
     animation: shake 1.8s cubic-bezier(.36, .07, .19, .97) both infinite;

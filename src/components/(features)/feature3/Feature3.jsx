@@ -11,7 +11,7 @@ const Feature3 = () => {
             <p>Stay prepared for any situation with our emergency message notification feature. Important alerts are delivered directly to users' home or lock screens, ensuring that critical information is received immediately. Trust The Maritext to keep your team informed and safe during emergencies.</p>
           </div>
           <div className={styles.content_img}>
-            <Image src="/phone_flash.svg" alt="" width={400} height={500} />
+            <Image src="/phone_flash.svg" alt="" width={480} height={600} />
           </div>
         </div>
       </div>
