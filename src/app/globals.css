@@ -47,7 +47,7 @@ a{
 .content {
     position: relative;
     width: 60vw;
-    height: 90vh;
+    height: 75vh;
     min-height: 50vh;
     display: flex;
     flex-direction: row;
