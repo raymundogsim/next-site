@@ -1,17 +1,18 @@
 .footer {
-    width: 58vw;
+    font-size: small;
+    width: 60vw;
     max-width: 60vw;
-    height: 20px;
+    height: 30px;
     max-height: 100px;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: flex-start;
-    gap: 140px;
+    justify-content: center;
+    gap: 10%;
 }
 
 @media (max-width: 1024px) {
     .footer {
-        gap: 80px;
+        gap: 10px;
     }
 }

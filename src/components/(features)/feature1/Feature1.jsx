@@ -7,8 +7,8 @@ const Feature1 = () => {
       <div>
         <div className={styles.content_a}> 
           <div className={styles.description}>
-            <h2>MariText</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <h1>1. Bulk SMS Messaging</h1>
+            <p>Empower your marketing and communication strategies with our SMS Brigade feature. Whether you're sending advertisements, announcements, memos, or updates, The Maritext enables you to reach large audiences efficiently. Amplify your reach and engage your audience with powerful, targeted messaging. </p>
           </div>
           <div className={styles.content_img}>
             <Image src="/phone_flash.svg" alt="" width={400} height={500} />

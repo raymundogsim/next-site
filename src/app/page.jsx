@@ -13,8 +13,9 @@ const Home = () => {
           <Image src="/splash.svg" alt="" width={1300} height={550} />
         </div>
         <div className="description">
-          <h1>MariText</h1>
+          <h1>The MariText</h1>
         <p>Messaging Service App for Business</p>
+        <button className="first_button" >Install it today for free!</button>
         </div>
       </div>
     </div>

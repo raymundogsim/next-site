@@ -10,8 +10,8 @@ const Feature4 = () => {
           <Image src="/phone_flash.svg" alt="" width={400} height={500} />
         </div>
         <div className={styles.description}>
-          <h2>MariText</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <h1>4. Integration with our Face Recognition App</h1>
+          <p>Combine the power of The Maritext with advanced face recognition technology for seamless user verification. This integration adds an extra layer of security to your authentication process, making it ideal for office or school identity verification. Utilize SMS confirmations to keep superiors or parents informed.</p>
         </div>
       </div>
     </div>

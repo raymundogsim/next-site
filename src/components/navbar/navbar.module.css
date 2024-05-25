@@ -1,8 +1,8 @@
 .container {
-    position: absolute;
+    position: relative;
     background-color: var(--bg);
-    width: 56vw;
-    height: 10vw;
+    width: 60vw;
+    height: 50px;
     max-height: 50px;
     display: flex;
     flex-direction: row;
@@ -12,8 +12,9 @@
 
 .logo {
     position: relative;
-    align-items: center;
+    align-items: left;
     flex-direction: row;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-startge
+    ;
 }

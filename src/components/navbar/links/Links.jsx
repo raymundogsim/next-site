@@ -28,7 +28,7 @@ const Links = () => {
   
   // TEMPORARY
   const session = true;
-  const isAdmin = true;
+  const isAdmin = false;
 
   return (
     <div className={styles.container}> 
@@ -39,7 +39,7 @@ const Links = () => {
         session ? (
           <>
             {isAdmin && <NavLink item={{ title: "Admin", path: "/admin" }}/>}
-            <button className={styles.logout} >Logout</button>
+            <button className={styles.button} > <span> Learn More </span></button>
           </>
         ) : (
             <NavLink item={{ title: "Login", path: "/login" }}/>

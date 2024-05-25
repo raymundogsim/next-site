@@ -4,23 +4,22 @@
     width: 60vw;
     max-width: 60vw;
     height: 95vh;
-    min-width:1080px;
     min-height: 800px;
     display: inline;
     flex-direction: column;
     padding-left: 35px;
-    padding-left: 35px;
-    align-items: flex-start;
-    justify-content: flex-start;
-    gap: 1px;
+    padding-right: 35px;
+    align-items: center;
+    justify-content: flex-end;
 }
     
 .title {
-    position: absolute;
+    position: relative;
     width: 56vw;
     min-width: 55vw;
     height: 150px;
     min-height: 150px;
+    font-size: 27pt;
     display: flex;
     flex-direction: column;
     margin-top: 100px;
@@ -33,35 +32,31 @@
 .content_a {
     position: relative;
     min-width: 60vw;
-    max-height: 85vh;
+    max-height: 60vh;
     display: flex;
     flex-direction: row;
-    margin-top: 50px;
-    align-items: left;
+    align-items: center;
     justify-content: space-between;   
 }
 
 .content_b {
     position: relative;
     width: 60vw;
-    height: 85vh;
+    height: 60vh;
     display: flex;
     flex-direction: row;
-    margin-top: 200px;
-    align-items: flex-start;
+    /* margin-top: 200px; */
+    align-items: center;
     justify-content: space-between;   
 }
 
 .content-img {
-    position: absolute;
+    position: relative;
     width: 30vw;
     height: 60vh;
     display: flex;
     flex-direction: column;
-    margin-top: 0px;
-    margin-right: 0px;
-    margin-bottom: 0px;
-    align-items: space-around;
+    align-items: center;
     justify-content: center;
 }
 
@@ -85,12 +80,12 @@
     display: flex;
     flex-direction: column;
     margin-top: 0px;
-    margin-right: 20px;
-    margin-left: 20px;
-    margin-bottom: 0px;
-    align-items: flex-start;
+    /* margin-right: 20px; */
+    /* margin-left: 20px; */
+    align-items: center;
     justify-content: center;
-    text-align: center;
+    text-align: flex-start;
+    gap: 10%;
 }
 
 @media (max-width: 1536px) {

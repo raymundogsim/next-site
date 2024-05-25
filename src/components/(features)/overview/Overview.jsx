@@ -6,7 +6,7 @@ const Overview = () => {
     <div className={styles.container}>
     <div className={styles.title}>
       <h1>
-        Creating value to your business to help you on your way to success
+      The Maritext: Web Integrated Messaging Service for Business
       </h1>
     </div>
         <div className={styles.content_b}>
@@ -15,10 +15,7 @@ const Overview = () => {
             <Image src="/hero.png" alt="" width={460} height={460} />
           </div>
           <div className={styles.description}>
-            <h3>
-            Lorem Ipsum
-            </h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p>The Maritext is a cutting-edge web application designed to revolutionize the way businesses communicate. This robust messaging service offers a comprehensive suite of features that streamline communication, enhance security, and ensure that important messages reach their intended audience promptly and effectively. With The Maritext, businesses can leverage powerful tools such as SMS Brigade for bulk messaging, which allows for efficient dissemination of advertisements, announcements, memos, and updates to large groups. Additionally, the OTP for secure login feature provides an extra layer of protection for user accounts, significantly reducing the risk of unauthorized access and enhancing overall platform security. Emergency message notifications ensure that critical alerts are delivered directly to users' home or lock screens, guaranteeing timely receipt of urgent information. Furthermore, integration with face recognition apps allows for seamless user verification and adds another layer of security to authentication processes. The Maritext is the ultimate solution for modern business communication needs, combining efficiency, reliability, and security.</p>
           </div>
         </div>
       </div>

@@ -10,8 +10,8 @@ const Feature2 = () => {
           <Image src="/phone_flash.svg" alt="" width={400} height={500} />
         </div>
         <div className={styles.description}>
-          <h2>MariText</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <h1>2. OTP Authentication for Secure App Login</h1>
+          <p>Enhance the security of your business app or platform with our one-time password (OTP) integration. This feature ensures that user accounts are protected through secure login verification, significantly reducing the risk of unauthorized access. With The Maritext, safeguarding your platform and users has never been easier.</p>
         </div>
       </div>
     </div>
