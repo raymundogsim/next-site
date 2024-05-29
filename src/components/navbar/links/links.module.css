@@ -1,21 +1,25 @@
 .links {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    gap: 0px;
-    margin-left: 20px;
+    justify-content: space-evenly;
+    gap: 20px;
+    padding: 10px;
+    font-weight: 500;
 } 
 
 .button {
-    display: inline-block;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
     border-radius: 7px;
-    background-color: var(--bg);
+    background-color: orange;
     border: none;
-    color: greenyellow;
+    color: var(--text);
     text-align: center;
     font-size: 18px;
     font-weight: bold;
-    padding: 1px;
+    padding: 10px;
     margin-left: 20px;
     width: 130px;
     transition: all 0.5s;
@@ -70,15 +74,17 @@
 }
 
 .menuButton {
-    background-color: var(--bg);
+    background-color: white;
+    height: 9px;
     border-left: 2px;
     border-right: 2px;
-    border-inline: 2px;
+    border-width: 3px;
     border-color: black;
-    border-width: 5px;
-    border-style: fab-bezier-curve;
     color: transparent;
-    display: block;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
     cursor: pointer;
 }
 
@@ -86,7 +92,7 @@
     position: absolute;
     top: 50px;
     right: 0;
-    width: 100%;
+    width: 100vh;
     height: calc(100vh - 100px);
     background-color: var(--bg);
     opacity: 100%;

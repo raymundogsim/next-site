@@ -24,3 +24,23 @@
     align-items: center;
     justify-content: center;
 }
+
+.box1 {
+    width: 30vw;
+    height: 60vh;
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    justify-content: center;
+}
+
+.box2 {
+    width: 30vw;
+    height: 60vh;
+    background-color: red;
+    display: flex;
+    flex-direction: row;
+    align-items: right;
+    justify-content: center;
+}

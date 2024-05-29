@@ -1,21 +1,19 @@
 .container {
     position: relative;
     background-color: var(--bg);
-    width: 60vw;
-    height: 50px;
-    min-width: 60vw;
-    max-height: 50px;
+    width: 100vw;
+    height: 60px;
+    max-height: 80px;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
 }
 
 .logo {
-    position: relative;
-    display: flex;
+
     flex-direction: row;
     align-items: center;
     justify-content: flex-start;
-    ;
 }

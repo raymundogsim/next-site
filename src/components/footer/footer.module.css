@@ -1,15 +1,13 @@
 .footer {
     font-size: small;
-    width: 60vw;
-    max-width: 60vw;
+    width: 100vw;
     height: 50px;
     max-height: 100px;
     display: flex;
-    margin-bottom: 5px;
     flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
-    gap: 10%;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 2%;
 }
 
 @media (max-width: 1024px) {

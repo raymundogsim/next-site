@@ -1,14 +1,13 @@
 .container{
-    height: 30px;
+    height: 40px;
     min-width: 90px;
-    padding: 5px;
+    padding: 10px;
     border-radius: 20px;
     font-weight: 500pt;
     flex-direction: row;
     align-items: center;
     text-align: center;
-    justify-content: space-between;
-    gap: 10px;
+    justify-content: center;
 }
 
 .active{
